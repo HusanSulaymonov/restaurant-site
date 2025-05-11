@@ -349,7 +349,10 @@ body {
     font-weight: 400;
     margin-left: 20px;
 }
+/* Our Meals section */
 
+
+/* Our Menu section */
 .menu {
     background-image: url(./images/bar.png);
     background-repeat: no-repeat; 
@@ -430,4 +433,56 @@ body {
     font-weight: 400;
     font-size: 30px;
     font-family: 'Cookie', cursive;
+}
+/* Our Menu section */
+
+
+/* Comment section */
+.comment {
+    background-color: #e5e5e5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comment-type {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.comment-name {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.comment-image {
+    text-align: center;
+}
+
+.comment-img {
+    border-radius: 50%;
+}
+/* Comment section */
+
+
+/* Gallery section */
+.gallery-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.gallery-title span {
+    color: #d67e34;
 }
