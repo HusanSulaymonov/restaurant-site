@@ -481,8 +481,29 @@ body {
     font-size: 54px;
     text-align: center;
     padding-top: 100px;
+    margin-bottom: 60px;
 }
 
 .gallery-title span {
     color: #d67e34;
 }
+
+.gallery-content {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-left {
+    margin-right: 22px;
+}
+
+.gallery-down,
+.gallery-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+/* Gallery section */
+
+
+/* Our Cooks */
