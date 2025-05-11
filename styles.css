@@ -364,7 +364,7 @@ body {
 .menu-title {
     font-family: 'Tinos', serif;
     text-align: center;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 54px;
     color: white;
     padding-top: 96px;
@@ -529,16 +529,17 @@ body {
     margin-right: 20px;
 }
 
+
+/* Footer section */
 .footer {
     display: flex;
-    padding: 50px 0px;
+    padding-top: 100px;
     color: white;
 }
 
 .footer-img {
     align-items: stretch;
-    width: 80%;
-    margin-left: 190px;
+    width: 100%;
 }
 
 .footer-text {
@@ -549,4 +550,28 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
+}
+
+
+@media (max-width: 1440px) {
+
+    .gallery-content {
+        display: block;
+    }
+
+    .img-gal, 
+    .gallery-up, 
+    .gallery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-gal {
+        margin-bottom: 20px;
+    }
+
+    .gallery-left {
+        margin-right: 0;
+    }
 }
