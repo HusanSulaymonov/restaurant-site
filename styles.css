@@ -317,6 +317,7 @@ body {
     font-weight: 400;
     font-size: 54px;
     padding-top: 132px;
+    margin-bottom: 139px;
 }
 
 .meals-title span {
@@ -325,6 +326,7 @@ body {
 
 .burgers {
     display: flex;
+    justify-content: center;
 }
 
 .pizza-image img {
