@@ -575,3 +575,57 @@ body {
         margin-right: 0;
     }
 }
+
+@media (max-width: 1255px) {
+    .menu-items {
+        display: block;
+    }
+
+    .menu-item {
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .header-title {
+        position: static;
+    }
+
+    .header-subtitle2:before,
+    .header-subtitle2:after {
+        content: none;
+    }
+
+    .cook-content {
+        display: block;
+    }
+
+    .cook-content img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .block-holder {
+        display: block;
+    }
+
+    .left-title,
+    .left-text,
+    .right-button  {
+        text-align: center;
+    }
+
+    .right-button {
+        margin-top: 30px;
+    }
+
+    .history-images {
+        position: absolute;
+        display: flex;
+        margin-top: 400px;
+        padding-bottom: 400px;
+        margin-left: 600px;
+        justify-content: center;
+    }
+}
