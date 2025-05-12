@@ -88,6 +88,10 @@ body {
     position: relative;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .header-title {
     color: #d67e34;
     font-family: 'Tinos', serif;
@@ -551,6 +555,7 @@ body {
     font-weight: 400;
     font-size: 20px;
 }
+/* Footer section */
 
 
 @media (max-width: 1440px) {
@@ -620,12 +625,66 @@ body {
         margin-top: 30px;
     }
 
+
+    /* Our History section */
     .history-images {
-        position: absolute;
-        display: flex;
-        margin-top: 400px;
-        padding-bottom: 400px;
-        margin-left: 600px;
-        justify-content: center;
+        display: none;
+    }
+
+    .history-title,
+    .history-desc,
+    .history-number {
+        width: auto;
+    }
+}
+
+@media (max-width: 1185px) {
+    .burger-menu {
+        display: block;
+    }
+
+    .nav,
+    .cart,
+    .phone,
+    .btn   {
+        display: none;
+    }
+
+    .header-line {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards-holder {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 36px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .history-holder {
+        display: block;
+    }
+
+    .menu-item {
+        width: auto;
+    }
+
+    .high {
+        display: none;
+    }
+
+    .cook {
+        margin: auto 40px;
+    }
+
+    .number-item {
+        font-size: 23px;
     }
 }
